@@ -1,0 +1,159 @@
+/**********************************************************
+* Project 2: Word Ladders
+* CS 15 - Makeup {Projects}
+* Brianna Taborda (btabor01)
+* README
+*********************************************************/
+
+(A) 
+Program Purpose: The purpose of this program is to find word ladders where each
+word in the series results from changing a single letter in the previous word.
+The program can complete two different operations. Given a file with two words
+on every line, it can find the shortest word ladder between these two words and
+print out the length of the word ladder and the words in it. Given a file with
+a word on every line, it can find how many words can be generated using word
+ladders of any size. If a file cannot be opened or is not of the correct format,
+the program will throw the respective runtime errors.
+
+
+(B)
+Acknowledgements:
+
+Google AI
+    Converting an std::string to all uppercase
+    Trimming whitespace
+
+Unordered Sets:
+    https://cplusplus.com/reference/unordered_set/unordered_set/
+    https://www.geeksforgeeks.org/set-vs-unordered_set-c-stl/
+
+Queue and BFS
+    https://cplusplus.com/reference/queue/queue/?kw=queue
+    https://stackoverflow.com/questions/3332947/what-are-the-practical-factors-to-consider-when-choosing-between-depth-first-sea
+    https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
+
+(C) 
+Files: 
+
+main.cpp
+    - Takes in commands from the user and calls the appropriate functions from
+      the WordLadder class
+
+unit_tests.h
+    - used for testing the Dictionary and Ladder classes
+
+Dictionary.h
+    - Interface of the Dictionary class
+
+Dictionary.cpp
+    - Implementation of the Dictionary class
+
+Ladder.h
+    - Implementation of the Ladder class
+
+Ladder.cpp
+    - Interface of the Ladder class
+
+WordLadder.h
+    - Implementation of the WordLadder class
+
+WordLadder.cpp
+    - Interface of the WordLadder class
+
+dictionary.txt 
+    - The dictionary this program is based upon
+
+ladders.txt
+    - input file for OP_CODE 1
+
+ladders.out.txt
+    - demo output file for OP_CODE 1
+
+ladders_test1.txt
+    - my output file for OP_CODE 1
+
+otherWords.txt 
+    - input file for OP_CODE 2
+
+otherWords.out.txt 
+    - demo output file for OP_CODE 2
+
+otherWords_test2.txt 
+    - my output file for OP_CODE 2
+
+README
+    this file
+
+(D) 
+Compile/run:
+Sort:
+    - Compile with
+        make
+    - Run with the appropriate command
+        ./ladder <FILE_NAME> <OP_CODE>
+
+(E)
+Data Structures/Algorithms:
+
+DICTIONARY:
+For fast retrieval of the different words from the dictionary, I decided to
+store the words in an unordered set as they are in no particular order and also
+want to eliminate any possibility of modification. Unordered sets have a lookup
+time of O(1) time. This is helpful because in functions such as wordExists,
+having an O(1) lookup time is helpful.
+The ladders are represented by vectors of strings.
+When writing the Ladder class, for getLadder I used a queue to implement BFS
+to ensure that all branches are checked and we stop at the first ladder that
+contains the target word. Each element in the queue is a ladder. 
+An unordered_set was used to keep track of the words that were already visited
+which is great because they have a fast lookup time.
+The WordLadder class acts as abstraction for handling the different operations
+to be performed regarding word ladders.
+
+(F)
+Testing:
+
+DICTIONARY:
+I created a function called insertWords to help me test that wordExists was
+functioning properly. It was a very simple function where I just added a word
+to dict (unordered set). My submitted version of the program will contain the
+code but commented out so that it doesn't affect the rest of my program.
+
+I had an especially hard time testing the populateDict function because it took
+a really long time to realize that the reason why I wasn't able to find the
+words I was searching up in the unordered set is because for some reason, even
+though I was using getline, there seemed to be a trailing new line after the
+words that were inserted. Once I realized that I looked for code on how to trim
+whitespace and implemented it into my function which did the trick.
+
+LADDER:
+To test getNeighbors, I made sure to test valid cases and invalid/edge cases 
+which consisted of a word not being in the dictionary, a word in the dictionary 
+but with no neighbors, and also ensuring that the function works for a single 
+letter.
+
+To test getLadder, for the invalid/edge cases I tested that the vector returned
+consisted of only the start word if the start and end word were the same. I also
+did the same with testing the same letter and also two words with no ladder
+between them.
+I also tested getLadder on an empty dictionary before I realized dictionary.txt
+was hardcoded into the program and finally tested it with dictionary.txt.
+
+To test otherWords, I tested the function on my own sample dictionary by
+checking a valid case, an invalid case with no neighbors, and a case where the
+word wasn't in the word list. Then to ensure that it could handle large datasets
+I tested the function on dictionary.txt 
+
+
+I realized when I was writing main that I automatically am using the dictionary
+file so I had to change my constructor in the Dictionary and WordLadder class
+to reflect the change that dictionary.txt is hardcoded.
+
+(G)
+Time Spent:
+    12/29: 1.5 hours
+    12/30: 7 hours
+    12/31: 6 hours
+    1/1: 6 hours
+    1/2: 6 hours
+    Total: 26.5 hours

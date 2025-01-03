@@ -1,0 +1,177 @@
+1.Word-ladder between SEE and SAW of length 3 has been found:
+	SEE
+	SEW
+	SAW
+2.Word-ladder between DOG and CAT of length 4 has been found:
+	DOG
+	COG
+	COT
+	CAT
+3.Word-ladder between MOO and COW of length 3 has been found:
+	MOO
+	COO
+	COW
+4.Word-ladder between HOME and AWAY of length 8 has been found:
+	HOME
+	DOME
+	DIME
+	DIRE
+	AIRE
+	AIRY
+	AWRY
+	AWAY
+5.Word-ladder between REAL and FAKE of length 7 has been found:
+	REAL
+	BEAL
+	BAAL
+	BALL
+	BALE
+	BAKE
+	FAKE
+6.Word-ladder between BLACK and WHITE of length 8 has been found:
+	BLACK
+	ALACK
+	ALICK
+	ALICE
+	ALITE
+	ARITE
+	WRITE
+	WHITE
+7.Word-ladder between AWAKE and SLEEP of length 9 has been found:
+	AWAKE
+	AWARE
+	SWARE
+	SLARE
+	SLANE
+	SLANT
+	SLENT
+	SLEET
+	SLEEP
+8.Word-ladder between SLEEP and AWAKE of length 9 has been found:
+	SLEEP
+	STEEP
+	STEEK
+	STERK
+	STARK
+	STARE
+	SWARE
+	AWARE
+	AWAKE
+9.Word-ladder between ANGEL and DEVIL of length 14 has been found:
+	ANGEL
+	ARGEL
+	ARGAL
+	ARGAS
+	ARRAS
+	ARRAH
+	AGRAH
+	AGRAL
+	AURAL
+	DURAL
+	DUCAL
+	DECAL
+	DECIL
+	DEVIL
+10.Word-ladder between HONOR and GLORY of length 11 has been found:
+	HONOR
+	CONOR
+	CONOY
+	CONKY
+	COCKY
+	SOCKY
+	SOAKY
+	SLAKY
+	GLAKY
+	GLARY
+	GLORY
+11.Word-ladder between WINTER and SUMMER of length 8 has been found:
+	WINTER
+	LINTER
+	LISTER
+	LISPER
+	LIMPER
+	SIMPER
+	SUMPER
+	SUMMER
+12.Word-ladder between PRETTY and PIGLET of length 19 has been found:
+	PRETTY
+	PRETRY
+	POETRY
+	POETLY
+	PORTLY
+	PARTLY
+	TARTLY
+	TARTLE
+	TATTLE
+	SATTLE
+	SETTLE
+	SETTEE
+	SETTER
+	PETTER
+	PELTER
+	PELLER
+	PELLET
+	PILLET
+	PIGLET
+13.Word-ladder between WOUNDED and BLISTER of length 7 has been found:
+	WOUNDED
+	BOUNDED
+	BOUNDER
+	BLUNDER
+	BLINDER
+	BLINTER
+	BLISTER
+14.Word-ladder between SHRIVEL and TWISTED of length 14 has been found:
+	SHRIVEL
+	SHRIVER
+	STRIVER
+	STAIVER
+	STAINER
+	STANNER
+	SPANNER
+	SPINNER
+	SHINNER
+	THINNER
+	TWINNER
+	TWINTER
+	TWISTER
+	TWISTED
+15.Word-ladder between TIMELESS and PANGLOSS of length 8 has been found:
+	TIMELESS
+	LIMELESS
+	LINELESS
+	VINELESS
+	VANELESS
+	PANELESS
+	PANGLESS
+	PANGLOSS
+16.Word-ladder between SHOELESS and LIMBLESS of length 14 has been found:
+	SHOELESS
+	SHOTLESS
+	SOOTLESS
+	FOOTLESS
+	FOODLESS
+	WOODLESS
+	WORDLESS
+	WARDLESS
+	WARELESS
+	WIRELESS
+	TIRELESS
+	TIMELESS
+	LIMELESS
+	LIMBLESS
+17.Word-ladder between BOSSINESS and MURKINESS of length 5 has been found:
+	BOSSINESS
+	MOSSINESS
+	MUSSINESS
+	MUSKINESS
+	MURKINESS
+18.Word-ladder between UNBEATABLE and UNSCALABLE of length 5 has been found:
+	UNBEATABLE
+	UNHEATABLE
+	UNHEALABLE
+	UNSEALABLE
+	UNSCALABLE
+19.No word-ladder possible between WAR and PEACE.
+20.No word-ladder possible between STICKS and STONES.
+21.No word-ladder possible between DEFEAT and VICTOR.

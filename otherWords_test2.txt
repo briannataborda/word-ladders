@@ -1,0 +1,34 @@
+1. SPY: 1291 other words can be made.
+2. FOX: 1291 other words can be made.
+3. MOO: 1291 other words can be made.
+4. LOL: not contained in word-list.
+5. NTH: 0 other words can be made.
+6. ONYX: 3 other words can be made.
+7. ARGO: 1 other word can be made.
+8. XMAS: 0 other words can be made.
+9. ROFL: not contained in word-list.
+10. JIVE: 4918 other words can be made.
+11. TUMOR: 8417 other words can be made.
+12. MARTY: 8417 other words can be made.
+13. JUICE: 1 other word can be made.
+14. MARTIN: 8328 other words can be made.
+15. SCOTTY: 8328 other words can be made.
+16. ABSENT: 18 other words can be made.
+17. GARLIC: 7 other words can be made.
+18. ENCHAIN: 3 other words can be made.
+19. RETREAT: 3 other words can be made.
+20. SURPASS: 11 other words can be made.
+21. BEDROCK: 9 other words can be made.
+22. FINISHER: 4 other words can be made.
+23. BATHROOM: 2 other words can be made.
+24. COMPUTER: 6 other words can be made.
+25. PUNCHABLE: 10 other words can be made.
+26. UNSKILLED: 46 other words can be made.
+27. SCORELESS: 34 other words can be made.
+28. THEMSELVES: 0 other words can be made.
+29. SACCHARINE: 6 other words can be made.
+30. SCHOOLYARD: 1 other word can be made.
+31. UNPRINTABLE: 4 other words can be made.
+32. PARENTHESIS: 4 other words can be made.
+33. UNREASONABLE: 3 other words can be made.
+34. UNMEASURABLE: 6 other words can be made.
